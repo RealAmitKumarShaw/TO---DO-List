@@ -10,21 +10,20 @@ function App() {
       dueDate: "4/10/2023",
     },
     {
-      name: 'Assignment',
+      name: "Assignment",
       dueDate: "4/10/2023",
     },
     {
       name: "Project",
       dueDate: "11/10/2023",
-    }
+    },
   ];
 
   return (
     <center className="to-container">
       <AppName />
       <AddTodo />
-      <TodoItems todoItems={todoItems}/>
-      
+      <TodoItems todoItems={todoItems} />
     </center>
   );
 }
